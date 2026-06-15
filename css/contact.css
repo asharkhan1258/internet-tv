@@ -663,3 +663,32 @@ textarea.form-control{
     color:#0d8b55;
     transform:translateY(-3px);
 }
+@media screen and (max-width:768px){
+   .contact-hero-wrapper{
+    background:linear-gradient(135deg,#0d8b55,#14a56a);
+    padding:30px;
+    border-radius:32px;
+    box-shadow:0 20px 50px rgba(13,139,85,.18);
+}
+.disclosure-hero-wrapper{
+    background:linear-gradient(135deg,#0d8b55,#14a56a);
+    padding:30px;
+    border-radius:32px;
+    box-shadow:0 20px 50px rgba(13,139,85,.18);
+}
+.disclosure-summary-panel{
+    background:#ffffff;
+    border:1px solid #dcebe5;
+    border-radius:28px;
+    padding:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.05);
+}
+
+.limits-role-wrapper{
+    background:#ffffff;
+    border-radius:30px;
+    padding:25px;
+    border:1px solid #dcebe5;
+    box-shadow:0 15px 40px rgba(0,0,0,.05);
+}
+}
